@@ -1,5 +1,6 @@
 # mpv-libunity
 `mpv-libunity` is a mpv plugin that shows a nice progress bar (and a useless badge) on your panel/dock using libunity specification. Obviously this only works on linux and with panels that support libunity (such as kde plasma or dash-to-dock on gnome).
+
 ![](image.png)
 
 ## Build

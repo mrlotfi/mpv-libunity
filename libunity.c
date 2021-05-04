@@ -36,7 +36,6 @@ extern "C"
             mpv_event *event = mpv_wait_event(handle, 1);
             mpv_get_property(handle, "time-pos", MPV_FORMAT_DOUBLE, &pos);
             mpv_get_property(handle, "duration", MPV_FORMAT_DOUBLE, &len);
-            printf("Got event: %d %f\n", event->event_id, len);
             set_progress(pos, len);
             if (event->event_id == MPV_EVENT_SHUTDOWN)
                 break;

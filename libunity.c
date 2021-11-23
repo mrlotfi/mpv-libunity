@@ -15,8 +15,6 @@ void set_progress(double pos, double len)
     signal << "application://mpv.desktop";
     QVariantMap setProperty;
 
-    setProperty.insert("count", qint64(1));
-    setProperty.insert("count-visible", true);
     setProperty.insert("progress", double(pos / len));
     setProperty.insert("progress-visible", true);
 

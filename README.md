@@ -1,5 +1,5 @@
 # mpv-libunity
-`mpv-libunity` is a mpv plugin that shows a nice progress bar (and a useless badge) on your panel/dock using libunity specification. Obviously this only works on linux and with panels that support libunity (such as kde plasma or dash-to-dock on gnome). Cinnamon panel is also supported via `cinnamon.lua` (but you will need xdotool and xprop in that case).
+`mpv-libunity` is a mpv plugin that shows a nice progress bar on your panel/dock using libunity specification. Obviously this only works on linux and with panels that support libunity (such as kde plasma or dash-to-dock on gnome). Cinnamon panel is also supported via `cinnamon.lua` (but you will need xdotool and xprop in that case).
 
 ![](image.png)
 

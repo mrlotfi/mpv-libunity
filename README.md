@@ -8,7 +8,7 @@ Build requirements:
  - c++ compiler
  - pkg-config
  - mpv development files
- - Qt5DBus development files (On archlinux available via qt5-base)
+ - Qt5/6DBus development files (On archlinux available via qt5/6-base)
 
 Just run `make`
 
